@@ -1,6 +1,6 @@
 {
-  "name": "sploder-browser",
-  "version": "1.0.0",
+  "name": "Sploder-Browser",
+  "version": "2.0.0",
   "author": "Saptarshi",
   "description": "A browser that can run sploder with flash built in",
   "license": "MIT",
@@ -12,11 +12,13 @@
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "dependencies": {
+    "@cliqz/adblocker-electron": "^1.23.0",
     "source-map-support": "^0.5.16"
   },
   "devDependencies": {
     "electron": "^8.2.0",
     "electron-builder": "^22.4.1",
+    "electron-devtools-installer": "^3.2.0",
     "electron-webpack": "^2.8.2",
     "webpack": "~4.42.1"
   },
